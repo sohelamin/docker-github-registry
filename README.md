@@ -3,6 +3,9 @@
 > A sample docker app for github package registry
 
 ## Usage
+Just push to the master branch and GitHub action will automatically handle the build & deploy process for you.
+
+## Manual Deploy
 1. Build your docker image
 	```
 	docker build -t sohelamin/docker-node-app .
